@@ -43,4 +43,8 @@ class Count
    {
       count = 0;
    }
+   public String toString()
+   {
+      return "The count is " + count + ".";
+   }
 }
