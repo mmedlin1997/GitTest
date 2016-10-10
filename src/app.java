@@ -1,3 +1,8 @@
+/*
+ * @author: Bob
+ * Added some comments here.
+ * This is the Counter Class, it just counts.
+ */
 
 public class app
 {
