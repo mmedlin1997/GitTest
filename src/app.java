@@ -5,11 +5,11 @@ public class app
    {
       System.out.println("Git Test App");
       
-      Count c = new Count(100);
+      Count c = new Count(200);
       for (int i=0; i<10; i++)
       {
          System.out.println("Count=" + c.getCount());
-         c.incrementCount();
+         c.incrementCount(5);
       }
       c.resetCount();
       System.out.println("Count reset to " + c.getCount());
@@ -29,6 +29,10 @@ class Count
    public void incrementCount()
    {
       count++;
+   }
+   public void incrementCount(int i)
+   {
+      count+=i;
    }
    public void resetCount()
    {
